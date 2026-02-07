@@ -6,7 +6,7 @@ import streamlit as st
 st.set_page_config(page_title="Dashboard de Vehículos", layout="wide") # Define el título que aparece en la pestaña del navegador y usa el modo wide (ancho) para que los gráficos no queden amontonados en el centro.
 
 # Título principal
-st.header('Análisis de Mercado de Vehículos Usados')
+st.header('Análisis de Mercado de Vehículos ')
 
 # Carga de datos
 car_data = pd.read_csv('vehicles_us.csv')
@@ -16,7 +16,7 @@ car_data = pd.read_csv('vehicles_us.csv')
 car_data['model_year'] = car_data['model_year'].fillna(car_data['model_year'].median())
 
 # --- BARRA LATERAL (SIDEBAR) PARA FILTROS ---
-st.sidebar.header("Filtros Interactivos")
+st.sidebar.header("Filtros de Años")
 
 # Slider para filtrar por año del modelo
 min_year = int(car_data['model_year'].min())

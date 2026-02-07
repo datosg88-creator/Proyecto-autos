@@ -61,3 +61,6 @@ Permite comparar la distribución de precios entre diferentes tipos (SUV, sedan,
 
 Boxplot del precio por condición del vehículo
 Permite evaluar cómo influye el estado del vehículo (excellent, good, fair, like new) en el precio.
+
+Link a la app en Render
+https://proyecto-autos-9x6w.onrender.com/
